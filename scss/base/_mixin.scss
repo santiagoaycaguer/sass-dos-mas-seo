@@ -1,0 +1,17 @@
+//mixin con parametros
+
+@mixin medidas($width, $height){
+    width: $width;
+    height: $height;
+}
+
+//mixin sin parametros
+
+@mixin box-model{
+    background-color: black;
+    box-shadow: 2px 2px 5px;
+    margin: 3rem;
+    padding: 2rem;
+    border: 2px solid black;
+    line-height: 1rem;
+}

@@ -1,0 +1,12 @@
+@import "base/mixin";
+@import "base/extend";
+
+
+.titulo h3{
+    @include medidas(2px, 5px);
+}
+
+section{
+    @include box-model;
+    @extend %flex;
+}
